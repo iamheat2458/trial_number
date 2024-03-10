@@ -1,5 +1,9 @@
 import random
-number = random.randint(1, 100)
+upper = input('pleae give the upper limit: ')
+lower = input('please give lower limit: ')
+upper = int(upper)
+lower = int(lower)
+number = random.randint(upper, lower)
 count = 0
 while True: 
     count = count + 1 
